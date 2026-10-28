@@ -105,21 +105,10 @@ SELECT * FROM OrderDetails WHERE OrderID = 101;
 
 SELECT SUM(SubTotal) AS TotalRevenue FROM OrderDetails;
 
-SELECT
-    p.ProductID,
-    p.ProductName,
-    SUM(od.Quantity) AS TotalQuantityOrdered
-FROM OrderDetails od
-JOIN Products p
-    ON od.ProductID = p.ProductID
-GROUP BY p.ProductID, p.ProductName
+SELECT ProductID, ProductName, SUM(Quantity) AS TotalQuantityOrdered FROM OrderDetails 
+GROUP BY ProductID
 ORDER BY TotalQuantityOrdered DESC
 LIMIT 3;
 
-SELECT
-    ProductID,
-    COUNT(*) AS TimesSold
-FROM OrderDetails
-WHERE ProductID = 202
-GROUP BY ProductID;
-
+SELECT ProductID, COUNT(*) AS TimesSold FROM OrderDetails
+WHERE ProductID = 202 GROUP BY ProductID;
