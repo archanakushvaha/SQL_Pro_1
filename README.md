@@ -97,6 +97,7 @@ Using this project, we can:
 **Project Name:** Data Digger  
 **Domain:** Database Management and Data Analysis  
 **Technology:** MySQL
+
 VIDEO LINK : https://drive.google.com/file/d/1m_w4lb1XKeZUSISolnqzR5KTyNifYMCo/view?usp=sharing
 
 ## 🏁 Conclusion
