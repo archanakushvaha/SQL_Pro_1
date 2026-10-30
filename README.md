@@ -97,6 +97,7 @@ Using this project, we can:
 **Project Name:** Data Digger  
 **Domain:** Database Management and Data Analysis  
 **Technology:** MySQL
+VIDEO LINK : https://drive.google.com/file/d/1m_w4lb1XKeZUSISolnqzR5KTyNifYMCo/view?usp=sharing
 
 ## 🏁 Conclusion
 Data Digger provides practical experience in MySQL database creation, data manipulation, relational table management, and sales data analysis. It helps build a strong foundation in SQL for database management and data analytics.
